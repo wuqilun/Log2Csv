@@ -47,7 +47,7 @@ class Log2Csv:
 
         rcg_df=pd.DataFrame(player_dict)
     
-        rcg_df.to_csv(self.csv_name)
+        rcg_df.to_csv(self.csv_name,index=False)
         
         
     def seg_rcg_2_df(self,test_rcg_seg, l_name, r_name,player_dict):
