@@ -1,7 +1,8 @@
-#！/usr/bin env python3
+#!/usr/bin env python3
+#coding=utf-8
 """
 date: 2018-04-01
-autho: dengyong.ai@gmailc.com 
+author: dengyong.ai@gmail.com 
 """
 __author__="dengyong"
 
