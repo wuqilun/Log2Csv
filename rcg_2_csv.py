@@ -50,7 +50,7 @@ class Rcg2Csv:
                 self.seg_rcg_2_df(i,self.l_name,self.r_name,player_dict,p_mode)
 
         rcg_df=pd.DataFrame(player_dict)
-    
+        rcg_df.to_csv(self.csv_name,index=False)
         
         return rcg_df
         
